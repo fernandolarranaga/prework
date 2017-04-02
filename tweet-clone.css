@@ -1,0 +1,97 @@
+* {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+body {
+  background:rgb(244, 248, 249);
+}
+
+.profile-pic, .account-pic, .user, .val-acc, .bottom, .reply, .retweet,
+.tweet-number, .favorite, .fav-number {
+  float: left;
+}
+
+.jack-tweet {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 8px;
+  width: 920px;
+  padding: 40px 40px 64px 40px;
+}
+
+.profile-pic {
+  padding-right: 40px;
+}
+
+.account-pic {
+  padding-right: 10px;
+}
+
+.user-name {
+  position: relative;
+  top: -2px;
+  padding-right: 4px;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.user-account {
+  position: relative;
+  left: -25px;
+  color: rgb(104, 109, 129);
+  font-size: 26px;
+}
+
+.follow-btn {
+  float: right;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 8px;
+  padding: 10px 26px 12px 32px;
+  color: rgb(85, 172, 238);
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.twitter-logo {
+  position: relative;
+  top: 4px;
+  left: -10px;
+}
+
+.follow-text {
+  float: right
+}
+
+.text {
+  clear: both;
+  padding: 30px 0px 10px;
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
+
+.date {
+  font-size: 28px;
+  font-weight: 700px;
+  color: rgb(101, 116, 127);
+  padding-bottom: 30px;
+}
+
+.reply {
+  padding-right: 40px;
+}
+
+.retweet, .favorite {
+  padding-right: 10px;
+}
+
+.tweet-number, .fav-number {
+  position: relative;
+  top: -6px;
+  padding-right: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(105, 120, 130);
+}
